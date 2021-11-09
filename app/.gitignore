@@ -69,7 +69,8 @@ typings/
 .nuxt
 
 # Nuxt generate
-dist
+# Required for Github Pages:
+# dist
 
 # vuepress build output
 .vuepress/dist
