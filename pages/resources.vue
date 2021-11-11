@@ -7,7 +7,7 @@
           <div v-for="resource in resources" :key="resource.title" class="p-4">
             <div class="shadow-lg rounded flex h-full">
               <div class="flex items-center justify-center flex-shrink-0 flex-grow-0 w-1/4 p-4">
-                <div class="block w-full"><img :src="resource.imageUrl" /></div>
+                <div class="block w-full text-center"><img :src="resource.imageUrl" class="inline-block" /></div>
               </div>
               <div class="flex-shrink flex-grow m-4">
                 <h2 class="text-gray-900 text-lg mb-4 font-medium title-font">{{ resource.title }}</h2>
