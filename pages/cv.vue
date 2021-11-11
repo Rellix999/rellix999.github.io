@@ -150,8 +150,12 @@
                   <td>Medior Web Developer at a SaaS (test management tool) company</td>
                 </tr>
                 <tr>
-                  <td>May 2020 - present</td>
+                  <td>May 2020 - October 2021</td>
                   <td>Developer at a SaaS (fully customizable printed products selling platform) company</td>
+                </tr>
+                <tr>
+                  <td>November 2021 - present</td>
+                  <td>Developer at a company that creates custom cloud native software</td>
                 </tr>
               </tbody>
             </table>
@@ -338,7 +342,7 @@
         </div>
       </section>
 
-      <section class="flex flex-col border-b-2 lg:flex-row lg:border-b-0 mb-3 pb-3">
+      <section class="flex flex-col lg:flex-row mb-3 pb-3">
         <div class="flex w-full lg:w-1/4 mb-2">
           <div class="w-full h-full lg:border-r-2 mr-4">
             <h2 class="font-semibold text-2xl text-gray-700 uppercase">Realized projects</h2>

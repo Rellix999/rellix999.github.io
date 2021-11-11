@@ -15,7 +15,10 @@
         <div class="feature">
           <div class="icon-container"><i class="fas fa-tools"></i></div>
           <div class="title">Resources</div>
-          <div class="description">My developer <NuxtLink to="/resources" class="text-link">toolbox</NuxtLink> is opened up to you. Time will tell what other cool stuff I'll put on here.</div>
+          <div class="description">
+            My developer <NuxtLink to="/resources" class="text-link">toolbox</NuxtLink> is opened up to you. Time will tell what other cool stuff I'll put on
+            here.
+          </div>
         </div>
       </div>
     </div>
@@ -27,10 +30,10 @@
   @apply p-4 w-full lg:pb-0 lg:w-1/3;
 
   .icon-container {
-    @apply mb-4;
+    @apply mb-4 transition-all;
 
     i {
-      @apply bg-blue-700 p-10 rounded-full text-5xl text-white;
+      @apply bg-blue-700 p-10 transition-all rounded-full text-5xl text-white;
     }
   }
   .title {
@@ -39,7 +42,11 @@
 
   &:hover {
     .icon-container {
-      @apply transition-all transform rotate-12;
+      @apply transform rotate-12;
+
+      i {
+        @apply bg-blue-500;
+      }
     }
   }
 }
