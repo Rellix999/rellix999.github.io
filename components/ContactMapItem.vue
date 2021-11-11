@@ -1,7 +1,7 @@
 <template>
   <a :href="url" class="contact-map-item flex w-full py-2 transition-all hover:bg-blue-100" target="_blank">
     <div class="icon-container flex items-center justify-center px-2 mr-2">
-      <i v-bind:class="computedIconClass"></i>
+      <i class="bg-blue-700 p-3 rounded-full text-white" :class="iconClass"></i>
     </div>
     <div>
       <h3 class="font-semibold">{{ title }}</h3>
@@ -14,11 +14,6 @@
 <script>
 export default {
   props: ["iconClass", "title", "text", "url"],
-  computed: {
-    computedIconClass: function () {
-      return [this.iconClass, "bg-blue-700 p-3 rounded-full text-white"];
-    },
-  },
 };
 </script>
 
