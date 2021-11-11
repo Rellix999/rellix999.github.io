@@ -2,7 +2,7 @@
   <div class="flex flex-col">
     <PageHeading title="CV" subtitle="The course of my life: experience, skills and qualifications." />
 
-    <div class="container mx-auto py-4 px-4 lg:px-0">
+    <div class="container mx-auto py-4 px-4">
       <div class="flex">
         <div class="w-3/4">
           <section class="flex flex-col border-b-2 lg:flex-row lg:border-b-0 mb-3 pb-3">
