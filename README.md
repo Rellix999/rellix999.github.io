@@ -9,8 +9,7 @@ This is my personal website. The source code contains mainly plain HTML. Maybe I
 ## Production
 - Make changes
 - Run `docker exec -it personal_website_client bash`
-- Run `npm run generate && cp CNAME ./dist`
+- Run `npm run generate && cp CNAME ./docs`
 - Run `exit`
 - Commit and push everything
-- Run `git subtree push --prefix dist origin gh-pages`
 - Visit https://thijs-schalk.com

@@ -53,5 +53,9 @@ export default {
   server: {
     host: '0',
     port: 8000
+  },
+
+  generate: {
+    dir: 'docs'
   }
 }
