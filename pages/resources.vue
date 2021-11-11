@@ -3,8 +3,8 @@
     <PageHeading title="Resources" subtitle="Read about what I use and why I use it." />
     <section>
       <div class="container mx-auto">
-        <div class="grid grid-cols-1 xl:grid-cols-2">
-          <div v-for="resource in resources" :key="resource.title" class="p-4">
+        <div class="grid grid-cols-1 xl:grid-cols-2 px-4 py-4 gap-4">
+          <div v-for="resource in resources" :key="resource.title">
             <div class="shadow-lg rounded flex h-full">
               <div class="flex items-center justify-center flex-shrink-0 flex-grow-0 w-1/4 p-4">
                 <div class="block w-full text-center"><img :src="resource.imageUrl" class="inline-block" /></div>
