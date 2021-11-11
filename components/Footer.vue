@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-100 text-gray-400 py-4 text-sm text-center lg:text-right">
+  <footer class="bg-gray-100 text-gray-400 py-4 text-sm text-center">
     <div class="container mx-auto">© {{ currentYear }} Thijs Schalk</div>
   </footer>
 </template>
