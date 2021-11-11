@@ -8,5 +8,6 @@ This is my personal website. The source code contains mainly plain HTML. Maybe I
 
 ## Production
 - Run `npm run generate`
+- Commit and push everything
 - Run `git subtree push --prefix dist origin gh-pages`
 - Visit https://rellix999.github.io
