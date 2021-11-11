@@ -9,7 +9,7 @@ This is my personal website. The source code contains mainly plain HTML. Maybe I
 ## Production
 - Make changes
 - Run `docker exec -it personal_website_client bash`
-- Run `npm run generate && cp CNAME ./docs`
+- Run `npm run generate`
 - Run `exit`
 - Commit and push everything
 - Visit https://thijs-schalk.com
