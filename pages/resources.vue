@@ -23,7 +23,8 @@
 
 <script lang="ts">
 import Resource from "../models/resource";
-export default {
+import Vue from "vue";
+export default Vue.extend({
   computed: {
     resources: function () {
       return [
@@ -135,5 +136,5 @@ export default {
       ];
     },
   },
-};
+});
 </script>

@@ -5,7 +5,7 @@
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <button
             type="button"
-            v-on:click="toggleMobileMenu"
+            @click="toggleMobileMenu"
             class="inline-flex items-center justify-center p-2 rounded-md hover:text-white hover:bg-blue-900"
             aria-controls="mobile-menu"
             aria-expanded="false"
@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="sm:hidden" :class="{ hidden: isMobileMenuHidden }" id="mobile-menu">
-      <div class="px-2 pt-2 pb-3 space-y-1" v-on:click="toggleMobileMenu">
+      <div class="px-2 pt-2 pb-3 space-y-1" @click="toggleMobileMenu">
         <NuxtLink to="/cv" class="hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md font-medium">CV</NuxtLink>
         <NuxtLink to="/contact" class="hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md font-medium">Contact</NuxtLink>
         <NuxtLink to="/resources" class="hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md font-medium">Resources</NuxtLink>
@@ -44,18 +44,19 @@
 </template>
 
 <script lang="ts">
-export default {
-  data: function () {
+import Vue from "vue";
+export default Vue.extend({
+  data() {
     return {
       isMobileMenuHidden: true,
     };
   },
   methods: {
-    toggleMobileMenu: function () {
+    toggleMobileMenu() {
       this.isMobileMenuHidden = !this.isMobileMenuHidden;
     },
   },
-};
+});
 </script>
 
 <style lang="scss" scoped>
