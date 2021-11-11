@@ -4,34 +4,72 @@
 
     <div class="container mx-auto py-4 px-4 lg:px-0">
       <div class="flex">
-        <div class="w-3/4">Left</div>
-        <div class="w-2/12 text-right">
-          <img src="/img/thijs-schalk-body.png" class="inline-block" />
+        <div class="w-3/4">
+          <section class="flex flex-col border-b-2 lg:flex-row lg:border-b-0 mb-3 pb-3">
+            <div class="flex w-full lg:w-4/12 mb-2">
+              <div class="w-full h-full lg:border-r-2 mr-4">
+                <h2 class="font-semibold text-2xl text-gray-700 uppercase">Personalia</h2>
+              </div>
+            </div>
+            <div class="w-full lg:w-6/12">
+              <div class="flex flex-wrap">
+                <div class="w-1/3">Name:</div>
+                <div class="w-2/3">Thijs Schalk</div>
+
+                <div class="w-1/3">City:</div>
+                <div class="w-2/3">Leerdam</div>
+
+                <div class="w-1/3">Country:</div>
+                <div class="w-2/3">The Netherlands</div>
+
+                <div class="w-1/3">E-mail</div>
+                <div class="w-2/3">thijs.schalk@gmail.com</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="flex flex-col border-b-2 lg:flex-row lg:border-b-0 mb-3 pb-3">
+            <div class="flex w-full lg:w-4/12 mb-2">
+              <div class="w-full h-full lg:border-r-2 mr-4">
+                <h2 class="font-semibold text-2xl text-gray-700 uppercase">About me</h2>
+              </div>
+            </div>
+            <div class="w-full lg:w-8/12">
+              <p>
+                I'm a down to earth, friendly lad that loves software development. I deliver clean code which is maintainable and efficient. With my independent
+                and rational thinking there's a solution to every problem. Both as a solo developer and in a team I'm able to realize great projects. The web
+                has been a passion of mine and motivates me immensely. Especially using technology to optimize processes and help people be more productive
+                motivates me.
+              </p>
+              <p class="mb-2">My hobby's are:</p>
+              <ul class="mb-4">
+                <li>Software programming</li>
+                <li>Films/Series/YouTube</li>
+                <li>
+                  Video games (<a href="https://store.steampowered.com/app/252950/Rocket_League/" target="_blank" class="text-link">Rocket League</a>,
+                  <a href="https://www.ea.com/games/battlefield" target="_blank" class="text-link">Battlefield</a>)
+                </li>
+                <li>Fitness (<a href="https://stronglifts.com" target="_blank" class="text-link">Stronglifts</a>)</li>
+              </ul>
+
+              <p class="mb-2">My inspirations are:</p>
+              <ul>
+                <li><a href="https://www.youtube.com/user/caseyneistat" target="_blank" class="text-link">Casey Neistat</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Steve_Jobs" target="_blank" class="text-link">Former Apple CEO Steve Jobs</a></li>
+                <li><a href="https://opensource.org/" target="_blank" class="text-link">The concept of Open Source</a></li>
+                <li><a href="https://michaelhyatt.com/" target="_blank" class="text-link">Entrepreneur Michael Hyatt</a></li>
+                <li>
+                  Movies like <a href="https://www.imdb.com/title/tt1285016/" target="_blank">The Social Network</a>,
+                  <a href="https://www.imdb.com/title/tt1375666/" target="_blank" class="text-link">Inception</a>,
+                  <a href="https://www.imdb.com/title/tt0168122/" target="_blank" class="text-link">Pirates of Silicon Valley</a> and
+                  <a href="https://www.imdb.com/title/tt0113243" target="_blank" class="text-link">Hackers</a>
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
+        <div class="w-1/4 text-right"><img src="/img/thijs-schalk-body.png" class="inline-block" /></div>
       </div>
-
-      <section class="flex flex-col border-b-2 lg:flex-row lg:border-b-0 mb-3 pb-3">
-        <div class="flex w-full lg:w-1/4 mb-2">
-          <div class="w-full h-full lg:border-r-2 mr-4">
-            <h2 class="font-semibold text-2xl text-gray-700 uppercase">Personalia</h2>
-          </div>
-        </div>
-        <div class="w-full lg:w-2/4">
-          <div class="flex flex-wrap">
-            <div class="w-1/3">Name:</div>
-            <div class="w-2/3">Thijs Schalk</div>
-
-            <div class="w-1/3">City:</div>
-            <div class="w-2/3">Leerdam</div>
-
-            <div class="w-1/3">Country:</div>
-            <div class="w-2/3">The Netherlands</div>
-
-            <div class="w-1/3">E-mail</div>
-            <div class="w-2/3">thijs.schalk@gmail.com</div>
-          </div>
-        </div>
-      </section>
 
       <section class="flex flex-col border-b-2 lg:flex-row lg:border-b-0 mb-3 pb-3">
         <div class="flex w-full lg:w-1/4 mb-2">
