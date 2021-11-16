@@ -25,7 +25,7 @@ export default {
   googleAnalytics: {
     id: 'UA-113940130-3',
     debug: {
-      sendHitTask: true
+      sendHitTask: process.env.NODE_ENV === 'production'
     }
   },
 
