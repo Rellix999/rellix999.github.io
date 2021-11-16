@@ -22,6 +22,13 @@ export default {
     ]
   },
 
+  googleAnalytics: {
+    id: 'UA-113940130-3',
+    debug: {
+      sendHitTask: true
+    }
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/node_modules/@fortawesome/fontawesome-free/css/all.min.css'
@@ -40,6 +47,7 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
