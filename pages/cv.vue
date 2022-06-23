@@ -135,27 +135,27 @@
                 </tr>
                 <tr>
                   <td>February 2010 - June 2010</td>
-                  <td>Internship junior PHP Developer at a website/webshop company</td>
+                  <td>Internship PHP Developer at a website/webshop company</td>
                 </tr>
                 <tr>
                   <td>August 2010 - January 2014</td>
-                  <td>Junior PHP Developer at a website/webshop company</td>
+                  <td>Full Stack Web Developer at a website/webshop company</td>
                 </tr>
                 <tr>
                   <td>February 2014 - October 2016</td>
-                  <td>Web Developer at a website/webshop company</td>
+                  <td>Full Stack Web Developer at a website/webshop company</td>
                 </tr>
                 <tr>
                   <td>December 2016 - April 2020</td>
-                  <td>Medior Web Developer at a SaaS (test management tool) company</td>
+                  <td>Full Stack Web Developer at a SaaS (test management tool) company</td>
                 </tr>
                 <tr>
                   <td>May 2020 - October 2021</td>
-                  <td>Developer at a SaaS (fully customizable printed products selling platform) company</td>
+                  <td>Full Stack Web Developer at a SaaS (fully customizable printed products selling platform) company</td>
                 </tr>
                 <tr>
                   <td>November 2021 - present</td>
-                  <td>Developer at a company that creates custom cloud native software</td>
+                  <td>Full Stack Web Developer at a company that creates custom cloud native software</td>
                 </tr>
               </tbody>
             </table>
