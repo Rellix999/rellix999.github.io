@@ -181,18 +181,6 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>CSS</td>
-                  <td>
-                    <ul>
-                      <li>Materialize CSS</li>
-                      <li>Node Package Manager</li>
-                      <li>SASS</li>
-                      <li>Tailwind CSS</li>
-                      <li>Twitter Bootstrap</li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
                   <td>C#</td>
                   <td>
                     <ul>
@@ -203,8 +191,25 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>HTML</td>
-                  <td>-</td>
+                  <td>
+                    HTML<br />
+                    CSS<br />
+                    JavaScript<br />
+                    TypeScript
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Angular</li>
+                      <li>Inertia.js</li>
+                      <li>jQuery</li>
+                      <li>Materialize CSS</li>
+                      <li>Node Package Manager</li>
+                      <li>SASS</li>
+                      <li>Tailwind CSS</li>
+                      <li>Twitter Bootstrap</li>
+                      <li>VueJS</li>
+                    </ul>
+                  </td>
                 </tr>
                 <tr>
                   <td>Java</td>
@@ -212,15 +217,6 @@
                     <ul>
                       <li>Spring Framework</li>
                       <li>Maven</li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>JavaScript</td>
-                  <td>
-                    <ul>
-                      <li>jQuery</li>
-                      <li>Node Package Manager</li>
                     </ul>
                   </td>
                 </tr>
@@ -233,9 +229,6 @@
                         <ul>
                           <li>CS-Cart</li>
                           <li>Drupal</li>
-                          <li>ExpressionEngine</li>
-                          <li>Interspire Shopping Cart</li>
-                          <li>Interspire E-mail Marketeer</li>
                           <li>Wordpress</li>
                         </ul>
                       </li>
@@ -253,7 +246,6 @@
                         <ul>
                           <li>Composer</li>
                           <li>ORMs: Doctrine, Eloquent</li>
-                          <li>cPanel</li>
                         </ul>
                       </li>
                     </ul>
@@ -265,7 +257,7 @@
                     <ul>
                       <li>Django</li>
                       <li>CherryPy</li>
-                      <li>SQLAlchemy ORM</li>
+                      <li>SQLAlchemy</li>
                     </ul>
                   </td>
                 </tr>
@@ -276,14 +268,6 @@
                       <li>MySQL</li>
                       <li>PostgreSQL</li>
                       <li>SQLite</li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>TypeScript</td>
-                  <td>
-                    <ul>
-                      <li>Angular</li>
                     </ul>
                   </td>
                 </tr>
