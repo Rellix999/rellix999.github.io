@@ -2,14 +2,14 @@
   <section class="text-gray-600 body-font relative h-full">
     <div class="absolute z-10 inset-0 bg-gray-300">
       <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39386.09268446376!2d5.060458644846388!3d51.90420155992009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c689f964ab4f1d%3A0x31b100b98afcca3f!2sLeerdam!5e0!3m2!1sen!2snl!4v1660825421954!5m2!1sen!2snl" 
-      width="100%" 
-      height="100%" 
-      frameborder="0"
-      style="border:0;filter: grayscale(1) contrast(1.2) opacity(0.4)"
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d746403.2579981065!2d4.590241997193606!3d52.08429323123031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c689f964ab4f1d%3A0x31b100b98afcca3f!2sLeerdam!5e0!3m2!1sen!2snl!4v1660826310258!5m2!1sen!2snl"
+        width="100%" 
+        height="100%" 
+        frameborder="0"
+        style="border:0;filter: grayscale(1) contrast(1.2) opacity(0.4)"
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
     <div class="relative z-20 h-full">
