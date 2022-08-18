@@ -1,29 +1,26 @@
 <template>
   <section class="text-gray-600 body-font relative h-full">
-    <div class="absolute inset-0 bg-gray-300">
-      <iframe
-        width="100%"
-        height="100%"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-        title="map"
-        scrolling="no"
-        src="https://www.google.com/maps/embed/v1/place
-  ?key=AIzaSyCkxzHgbbJaV1BdYuCqt7RLLRbkcLIID9s
-  &center=51.891891,5.090390
-  &q=Leerdam, the Netherlands
-  &zoom=7"
-        style="filter: grayscale(1) contrast(1.2) opacity(0.4)"
+    <div class="absolute z-10 inset-0 bg-gray-300">
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39386.09268446376!2d5.060458644846388!3d51.90420155992009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c689f964ab4f1d%3A0x31b100b98afcca3f!2sLeerdam!5e0!3m2!1sen!2snl!4v1660825421954!5m2!1sen!2snl" 
+      width="100%" 
+      height="100%" 
+      frameborder="0"
+      style="border:0;filter: grayscale(1) contrast(1.2) opacity(0.4)"
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
-    <div class="container px-5 py-24 mx-auto flex">
-      <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-        <h2 class="text-gray-900 text-lg mb-4 font-medium title-font">Contact</h2>
-        <ContactMapItem class="border-b-2" iconClass="fas fa-user-tie" title="KvK number (Chamber of Commerce)" text="804948700000" url="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=804948700000" />
-        <ContactMapItem class="border-b-2" iconClass="fas fa-envelope" title="E-mail" text="thijs.schalk@gmail.com" url="mailto:thijs.schalk@gmail.com" />
-        <ContactMapItem class="border-b-2" iconClass="fab fa-linkedin" title="LinkedIn" text="thijsschalk" url="https://www.linkedin.com/in/thijsschalk/" />
-        <ContactMapItem iconClass="fab fa-instagram" title="Instagram" text="thijs.999" url="https://www.instagram.com/thijs.999/" />
+    <div class="relative z-20">
+      <div class="container px-5 py-24 mx-auto flex">
+        <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 shadow-md">
+          <h2 class="text-gray-900 text-lg mb-4 font-medium title-font">Contact</h2>
+          <ContactMapItem class="border-b-2" iconClass="fas fa-user-tie" title="KvK number (Chamber of Commerce)" text="804948700000" url="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=804948700000" />
+          <ContactMapItem class="border-b-2" iconClass="fas fa-envelope" title="E-mail" text="thijs.schalk@gmail.com" url="mailto:thijs.schalk@gmail.com" />
+          <ContactMapItem class="border-b-2" iconClass="fab fa-linkedin" title="LinkedIn" text="thijsschalk" url="https://www.linkedin.com/in/thijsschalk/" />
+          <ContactMapItem iconClass="fab fa-instagram" title="Instagram" text="thijs.999" url="https://www.instagram.com/thijs.999/" />
+        </div>
       </div>
     </div>
   </section>
