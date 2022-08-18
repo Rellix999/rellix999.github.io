@@ -12,7 +12,7 @@
       referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
-    <div class="relative z-20">
+    <div class="relative z-20 h-full">
       <div class="container px-5 py-24 mx-auto flex">
         <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 shadow-md">
           <h2 class="text-gray-900 text-lg mb-4 font-medium title-font">Contact</h2>
